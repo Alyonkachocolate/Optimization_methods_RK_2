@@ -67,10 +67,9 @@ int main() {
 
         double F_sr = (crossover_1.function() + crossover_2.function() + crossover_3.function() + crossover_4.function()) / 4.0;
 
-        std::cout << "FIT наибольшее = " << F_max << std::endl;
-        std::cout << "FIT среднее = " << F_sr << std::endl;
+                std::cout << "FIT наибольшее = " << F_max << std::endl;
+                std::cout << "FIT среднее = " << F_sr << std::endl;
 
-        if (F_sr == F_max) std::cout << "@@@FIT наибольшее = FIT среднее" << std::endl;
 
         // записываем новую популяцию
         dots.clear();
